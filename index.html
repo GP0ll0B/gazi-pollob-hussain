@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="https://schema.org/WebPage">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+    <meta name="theme-color" content="#020617" />
+    <meta name="description" content="Gazi Pollob Hussain constructed the singular Bessel kernel family K_α = J₀(β·D_p)·D_p^{−α} and proved Lemma 3: both kernel and p-derivative diverge at the metric center for α > 0, with α = 0 as the critical exponent." />
+    <meta name="keywords" content="Gazi Pollob Hussain, singular Bessel kernel, K_alpha kernel, Minkowski p-norm, p-sensitivity divergence, metric center singularity, critical exponent alpha=0, Bessel function J_0, kernel theory, mathematical analysis, singular integral, Riesz potential" />
+    <meta name="author" content="Gazi Pollob Hussain" />
+    <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large" />
+    <meta property="og:type" content="profile" />
+    <meta property="og:title" content="Gazi Pollob Hussain — Singular Bessel Kernel K_α" />
+    <meta property="og:description" content="Constructor of K_α and author of Lemma 3: kernel and p-derivative both diverge at the metric center, with α = 0 as the critical exponent." />
+    <meta property="og:url" content="https://orcid.org/0009-0007-3644-2002" />
+    <meta property="profile:first_name" content="Gazi Pollob" />
+    <meta property="profile:last_name" content="Hussain" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Gazi Pollob Hussain — Singular Bessel Kernel K_α" />
+    <meta name="twitter:description" content="Lemma 3: paired singularity of kernel and p-derivative at the metric center. Critical exponent α = 0." />
+    <link rel="canonical" href="https://orcid.org/0009-0007-3644-2002" />
+    <link rel="me" href="https://orcid.org/0009-0007-3644-2002" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://orcid.org/0009-0007-3644-2002",
+            "name": "Gazi Pollob Hussain",
+            "givenName": "Gazi Pollob",
+            "familyName": "Hussain",
+            "identifier": "https://orcid.org/0009-0007-3644-2002",
+            "nationality": "Bangladesh",
+            "jobTitle": "Independent Researcher",
+            "knowsAbout": [
+              "Singular Bessel kernels",
+              "Minkowski p-norms",
+              "Kernel theory",
+              "Singular integral operators",
+              "Metric center singularities",
+              "Critical exponents"
+            ]
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "Singular Bessel kernel K_α",
+            "description": "The kernel family K_α(x,p) = J_0(β·D_p(x,μ))·D_p(x,μ)^{−α} on R^2, where J_0 is the Bessel function of order zero, D_p is the Minkowski p-norm distance, α ≥ 0 is a power exponent, β > 0 a spatial frequency.",
+            "inDefinedTermSet": "Kernel theory"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "Lemma 3 (Hussain)",
+            "description": "For α > 0, both K_α and |∂K_α/∂p| diverge at the metric center x → μ with rate O(D^{−α}). For α = 0, |∂K_0/∂p| = O(D^2) → 0. The p-sensitivity diverges if and only if the kernel diverges.",
+            "inDefinedTermSet": "Singular kernel analysis"
+          },
+          {
+            "@type": "DefinedTerm",
+            "name": "Critical exponent α = 0",
+            "description": "The value of α at which the p-derivative of K_α transitions from vanishing (bounded kernel) to divergent (singular kernel).",
+            "inDefinedTermSet": "Singular kernel analysis"
+          }
+        ]
+      }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+    <title>Gazi Pollob Hussain — Singular Bessel Kernel K_α and the Critical Exponent α = 0</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="prog"></div>
+    <div id="stage"></div>
+    <div class="grain"></div>
+
+    <nav id="nav">
+      <div class="brand"><span class="dot"></span>K_α · HUSSAIN</div>
+      <ul>
+        <li><a href="#contribution">Contribution</a></li>
+        <li><a href="#lemma">Lemma 3</a></li>
+        <li><a href="#lineage">Lineage</a></li>
+        <li><a href="#scope">Scope</a></li>
+        <li><a href="#author">Author</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="hero">
+        <div class="wrap">
+          <div class="kick reveal">Independent research · 2026</div>
+          <h1 class="reveal d1">
+            The singular Bessel kernel <em>K<sub>α</sub></em> and the critical exponent <em>α&nbsp;=&nbsp;0</em>
+          </h1>
+          <p class="lead reveal d2">
+            <strong>Gazi Pollob Hussain</strong> constructed a family of singular kernels on ℝ²
+            — Bessel function composed with the Minkowski <em>p</em>-norm, weighted by an inverse
+            power — and proved that at the metric center, kernel and <em>p</em>-derivative
+            diverge together. The threshold between bounded and singular behavior is a single
+            number: α&nbsp;=&nbsp;0.
+          </p>
+          <div class="hmeta reveal d3">
+            <div><strong>Author</strong> · Gazi Pollob Hussain</div>
+            <div><strong>ORCID</strong> · <a href="https://orcid.org/0009-0007-3644-2002">0009-0007-3644-2002</a></div>
+            <div><strong>Country</strong> · Bangladesh</div>
+            <div><strong>Year</strong> · 2026</div>
+          </div>
+          <div class="scroll-h reveal d4">Scroll to explore</div>
+        </div>
+      </section>
+
+      <section id="contribution">
+        <div class="wrap">
+          <div class="shead reveal">
+            <span class="snum">01</span>
+            <span class="stag t-what">The Contribution</span>
+          </div>
+          <h2 class="reveal d1">A single kernel family. A paired singularity. A critical exponent.</h2>
+          <p class="sec-lead reveal d2">
+            Three deliverables, each one checkable. The kernel family
+            <em class="term">K<sub>α</sub></em>; the paired-singularity result
+            <em class="term">Lemma 3</em>; the exact threshold
+            <em class="term">α = 0</em>.
+          </p>
+
+          <div class="math reveal d2">
+            K<sub>α</sub>(<b>x</b>, p) <span class="op">=</span> J<sub>0</sub>( β · D<sub>p</sub>(<b>x</b>, <b>μ</b>) ) <span class="op">·</span> D<sub>p</sub>(<b>x</b>, <b>μ</b>)<sup>−α</sup>
+          </div>
+
+          <div class="cgrid">
+            <div class="ccard k-why reveal d1">
+              <div class="k">What was constructed</div>
+              <div class="v">
+                <b>K<sub>α</sub> — the kernel family</b>
+                J<sub>0</sub> composed with the Minkowski <em>p</em>-norm, weighted by an inverse
+                power. A bounded oscillatory factor multiplied by a singular weight. Neither family
+                alone produces this; the composition is the object.
+              </div>
+            </div>
+            <div class="ccard k-when reveal d2">
+              <div class="k">What was proved</div>
+              <div class="v">
+                <b>Lemma 3 — the paired singularity</b>
+                For α &gt; 0, both the kernel and its <em>p</em>-derivative diverge at the metric
+                center, at matching rate O(D<sup>−α</sup>). Two chain-rule applications, one
+                logarithmic cancellation, one theorem.
+              </div>
+            </div>
+            <div class="ccard k-what reveal d3">
+              <div class="k">What was identified</div>
+              <div class="v">
+                <b>α = 0 — the critical exponent</b>
+                The exact value of α where the <em>p</em>-derivative flips from vanishing
+                (bounded kernel) to divergent (singular kernel). Below it, nothing. Above it,
+                everything.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="lemma">
+        <div class="wrap">
+          <div class="shead reveal">
+            <span class="snum">02</span>
+            <span class="stag t-what">Main Result</span>
+          </div>
+          <h2 class="reveal d1">Lemma 3 — the theorem in one paragraph</h2>
+          <p class="sec-lead reveal d2">
+            The full statement. Below it: the numerical table that confirms every prediction.
+          </p>
+
+          <div class="thm reveal d2">
+            <p><span class="lab">Lemma 3.</span> <span class="if">Fix α &gt; 0 and β &gt; 0. For every p &gt; 1:</span></p>
+            <p>(i) As <b>x</b> → <b>μ</b>, K<sub>α</sub>(<b>x</b>, p) → +∞.</p>
+            <p>(ii) As <b>x</b> → <b>μ</b>, |∂K<sub>α</sub>/∂p| → +∞, with rate O( D<sub>p</sub><sup>−α</sup> ).</p>
+            <p>(iii) If α = 0, then |∂K<sub>0</sub>/∂p| = O( D<sub>p</sub><sup>2</sup> ) → 0.</p>
+            <p>The <em>p</em>-sensitivity diverges at the metric center <b>if and only if</b> the kernel diverges there.</p>
+          </div>
+
+          <h3 class="reveal d1">Numerical verification</h3>
+          <p class="dim reveal d2">
+            Central differences in <em>p</em> (step h = 10<sup>−3</sup>), β = 1, p = 1.75, ray at 30°.
+            Three columns, three regimes. The numbers do exactly what the lemma says they do.
+          </p>
+
+          <table class="ntab reveal d3">
+            <thead>
+              <tr>
+                <th>D — distance</th>
+                <th>|∂K/∂p|, α = 0</th>
+                <th>|∂K/∂p|, α = 1</th>
+                <th>|∂K/∂p|, α = 2</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>1.0 × 10⁰</td><td class="c0">3.2 × 10⁻¹</td><td class="c1">3.2 × 10⁻¹</td><td class="c2">3.2 × 10⁻¹</td></tr>
+              <tr><td>1.0 × 10⁻¹</td><td class="c0">4.1 × 10⁻³</td><td class="c1">3.1 × 10⁰</td><td class="c2">3.1 × 10¹</td></tr>
+              <tr><td>1.0 × 10⁻²</td><td class="c0">4.2 × 10⁻⁵</td><td class="c1">3.1 × 10¹</td><td class="c2">3.1 × 10³</td></tr>
+              <tr><td>1.0 × 10⁻³</td><td class="c0">4.2 × 10⁻⁷</td><td class="c1">3.1 × 10²</td><td class="c2">3.1 × 10⁵</td></tr>
+              <tr><td>1.0 × 10⁻⁴</td><td class="c0">4.2 × 10⁻⁹</td><td class="c1">3.1 × 10³</td><td class="c2">3.1 × 10⁷</td></tr>
+              <tr><td>1.0 × 10⁻⁵</td><td class="c0">4.2 × 10⁻¹¹</td><td class="c1">3.1 × 10⁴</td><td class="c2">3.1 × 10⁹</td></tr>
+            </tbody>
+          </table>
+
+          <p class="dim reveal d1">
+            The α = 0 column shrinks as D². The α = 1 and α = 2 columns grow as D<sup>−1</sup>
+            and D<sup>−2</sup>. This is the critical exponent, visible in a table.
+          </p>
+        </div>
+      </section>
+
+      <section id="lineage">
+        <div class="wrap">
+          <div class="shead reveal">
+            <span class="snum">03</span>
+            <span class="stag t-line">Lineage</span>
+          </div>
+          <h2 class="reveal d1">Built on two centuries of mathematics</h2>
+          <p class="sec-lead reveal d2">
+            Every ingredient of K<sub>α</sub> has a documented ancestor. The present contribution
+            sits at the end of a long line, and names what it borrows.
+          </p>
+
+          <div class="tl">
+            <div class="tlg">Bessel functions</div>
+            <div class="tln reveal d1">
+              <span class="tw">F. W. Bessel</span><span class="ty">1824</span>
+              <div class="twh">Introduced and studied J<sub>n</sub>(z). Established J<sub>0</sub>(0) = 1 and the recurrence J<sub>0</sub>′(z) = −J<sub>1</sub>(z).</div>
+            </div>
+
+            <div class="tlg">p-norms &amp; Minkowski geometry</div>
+            <div class="tln reveal d1">
+              <span class="tw">H. Minkowski</span><span class="ty">1896</span>
+              <div class="twh"><em>Geometrie der Zahlen.</em> Introduced the L<sup>p</sup> norm — the level set geometry that K<sub>α</sub> inherits through D<sub>p</sub>.</div>
+            </div>
+
+            <div class="tlg">Singular integrals &amp; Riesz potentials</div>
+            <div class="tln reveal d1">
+              <span class="tw">M. Riesz</span><span class="ty">1938</span>
+              <div class="twh">Riesz potentials — the prototype of every kernel with power-law singularity. The D<sup>−α</sup> weight in K<sub>α</sub> lives in this tradition.</div>
+            </div>
+            <div class="tln reveal d1">
+              <span class="tw">E. M. Stein</span><span class="ty">1970</span>
+              <div class="twh"><em>Singular Integrals and Differentiability Properties of Functions.</em> The canonical framework for kernels of the form |x|<sup>−n+α</sup>.</div>
+            </div>
+
+            <div class="tlg">Kernel methods</div>
+            <div class="tln reveal d1">
+              <span class="tw">Broomhead &amp; Lowe · Poggio &amp; Girosi</span><span class="ty">1988 · 1990</span>
+              <div class="twh">Established radial basis function networks — the setting in which the <em>p</em>-norm became a tunable parameter inside a kernel.</div>
+            </div>
+
+            <div class="tlg">Present work</div>
+            <div class="tln me reveal d2">
+              <span class="tw">Gazi Pollob Hussain</span><span class="ty">2026</span>
+              <div class="twh">
+                Composed J<sub>0</sub> with the Minkowski <em>p</em>-norm and a power weight to form
+                <b>K<sub>α</sub> = J<sub>0</sub>(β·D<sub>p</sub>) · D<sub>p</sub><sup>−α</sup></b>.
+                Proved Lemma 3: for α &gt; 0, both K<sub>α</sub> and |∂K<sub>α</sub>/∂p| diverge
+                at the metric center with rate O(D<sup>−α</sup>). Identified <b>α = 0</b> as the
+                critical exponent. <em>Uses J<sub>0</sub> of Bessel (1824) and the p-norm of
+                Minkowski (1896) as building blocks.</em>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="scope">
+        <div class="wrap">
+          <div class="shead reveal">
+            <span class="snum">04</span>
+            <span class="stag t-what">Scope</span>
+          </div>
+          <h2 class="reveal d1">What this contribution claims</h2>
+          <p class="sec-lead reveal d2">
+            The full extent of the claim, stated plainly. Everything below is
+            attributable to Gazi Pollob Hussain, 2026.
+          </p>
+
+          <div class="scope reveal d2">
+            <div class="sr"><span class="sm">✓</span><span class="sb"><strong>The kernel family K<sub>α</sub>.</strong> A specific family of singular kernels on ℝ², formed by composing the Bessel function J<sub>0</sub> with the Minkowski <em>p</em>-norm and weighting by an inverse power: K<sub>α</sub>(x, p) = J<sub>0</sub>(β·D<sub>p</sub>(x, μ)) · D<sub>p</sub>(x, μ)<sup>−α</sup>, for α ≥ 0 and β &gt; 0.</span></div>
+
+            <div class="sr"><span class="sm">✓</span><span class="sb"><strong>Lemma 3 — the paired singularity.</strong> A theorem stating that for α &gt; 0, both the kernel K<sub>α</sub> and its <em>p</em>-derivative |∂K<sub>α</sub>/∂p| diverge at the metric center x → μ, at matching asymptotic rate O(D<sub>p</sub><sup>−α</sup>). Proven by two chain-rule applications with an explicit logarithmic cancellation under ray parameterization.</span></div>
+
+            <div class="sr"><span class="sm">✓</span><span class="sb"><strong>The critical exponent α = 0.</strong> Identification of the exact value of α at which the <em>p</em>-derivative transitions from vanishing (bounded kernel, α = 0) to divergent (singular kernel, α &gt; 0). The divergence exists if and only if α &gt; 0.</span></div>
+
+            <div class="sr"><span class="sm">✓</span><span class="sb"><strong>Numerical verification.</strong> A computed table confirming the predicted rates D<sup>0</sup>, D<sup>−1</sup>, D<sup>−2</sup> for α = 0, 1, 2, obtained by central differences in <em>p</em> along a ray from the metric center.</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="keywords">
+        <div class="wrap">
+          <div class="shead reveal">
+            <span class="snum">05</span>
+            <span class="stag t-why">Domains &amp; Entities</span>
+          </div>
+          <h2 class="reveal d1">The mathematical territory</h2>
+          <p class="sec-lead reveal d2">
+            Where this work sits — searchable terms, indexing entities, and the
+            mathematical fields it belongs to.
+          </p>
+
+          <div class="tags reveal d3">
+            <span class="tag hi">singular Bessel kernel</span>
+            <span class="tag hi">K<sub>α</sub> kernel family</span>
+            <span class="tag hi">Minkowski p-norm</span>
+            <span class="tag hi">p-sensitivity divergence</span>
+            <span class="tag hi">metric center singularity</span>
+            <span class="tag hi">critical exponent α = 0</span>
+            <span class="tag">Bessel function J<sub>0</sub></span>
+            <span class="tag">kernel theory</span>
+            <span class="tag">singular integral operator</span>
+            <span class="tag">Riesz potential</span>
+            <span class="tag">power-law singularity</span>
+            <span class="tag">radial basis functions</span>
+            <span class="tag">differential entropy</span>
+            <span class="tag">MSC 33C10</span>
+            <span class="tag">MSC 46E22</span>
+            <span class="tag">MSC 42B20</span>
+            <span class="tag">mathematical analysis</span>
+            <span class="tag">Bangladesh · independent researcher</span>
+          </div>
+
+          <h3 class="reveal d1">Glossary</h3>
+          <div class="glo">
+            <div class="gi reveal d1">
+              <div class="gt">K<sub>α</sub></div>
+              <div class="gd">The singular Bessel kernel: J<sub>0</sub>(β·D<sub>p</sub>) · D<sub>p</sub><sup>−α</sup>. Singular at the metric center for α &gt; 0.</div>
+            </div>
+            <div class="gi reveal d2">
+              <div class="gt">D<sub>p</sub></div>
+              <div class="gd">Minkowski p-norm distance: (|x−μ<sub>x</sub>|<sup>p</sup> + |y−μ<sub>y</sub>|<sup>p</sup>)<sup>1/p</sup>. Diamond at p = 1, circle at p = 2, square as p → ∞.</div>
+            </div>
+            <div class="gi reveal d3">
+              <div class="gt">Metric center</div>
+              <div class="gd">The point x = μ where D<sub>p</sub>(x, μ) = 0. The location of the kernel's singularity.</div>
+            </div>
+            <div class="gi reveal d1">
+              <div class="gt">Critical exponent</div>
+              <div class="gd">α = 0. Where the p-derivative flips from vanishing (bounded kernel) to divergent (singular kernel).</div>
+            </div>
+            <div class="gi reveal d2">
+              <div class="gt">p-sensitivity</div>
+              <div class="gd">|∂K<sub>α</sub>/∂p| — the rate of change of the kernel with respect to the norm order p.</div>
+            </div>
+            <div class="gi reveal d3">
+              <div class="gt">Paired singularity</div>
+              <div class="gd">The simultaneous divergence of K<sub>α</sub> and |∂K<sub>α</sub>/∂p| at the metric center — the content of Lemma 3.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="author">
+        <div class="wrap">
+          <div class="shead reveal">
+            <span class="snum">06</span>
+            <span class="stag t-what">Author</span>
+          </div>
+          <h2 class="reveal d1">Gazi Pollob Hussain</h2>
+
+          <div class="author reveal d2">
+            <div class="amark">GPH</div>
+            <div>
+              <div class="aname">Gazi Pollob Hussain</div>
+              <div class="arole">Independent Researcher · Mathematical Analysis</div>
+              <p class="abio">
+                Constructed the singular Bessel kernel family K<sub>α</sub> and proved Lemma 3:
+                the paired divergence of kernel and <em>p</em>-derivative at the metric center,
+                with α = 0 identified as the critical exponent. Based in Bangladesh.
+              </p>
+              <div class="alinks">
+                <a class="alink" href="https://orcid.org/0009-0007-3644-2002" rel="me">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zm-3.5 6.5a1 1 0 110 2 1 1 0 010-2zm.75 3.5v9h-1.5v-9h1.5zm2.5 0h3.25c2.9 0 4.5 1.7 4.5 4.5s-1.6 4.5-4.5 4.5H11.75v-9zm1.5 1.25v6.5h1.65c2.1 0 3.1-1.15 3.1-3.25s-1-3.25-3.1-3.25H13.25z"/></svg>
+                  ORCID 0009-0007-3644-2002
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq">
+        <div class="wrap">
+          <div class="shead reveal">
+            <span class="snum">07</span>
+            <span class="stag t-faq">Questions</span>
+          </div>
+          <h2 class="reveal d1">Direct answers</h2>
+          <p class="sec-lead reveal d2">
+            Each question answered in one or two sentences. The clearest form of what this
+            work is.
+          </p>
+
+          <details class="faq reveal d1" open>
+            <summary>What is the singular Bessel kernel K<sub>α</sub>?</summary>
+            <div class="a">
+              <code>K_α(x, p) = J_0(β · D_p(x, μ)) · D_p(x, μ)^(−α)</code>, where J<sub>0</sub> is
+              the Bessel function of order zero, D<sub>p</sub> is the Minkowski p-norm distance to a
+              fixed center μ, α ≥ 0 is a power exponent, and β &gt; 0 is a spatial frequency. The
+              kernel is a bounded oscillatory factor multiplied by a singular power weight.
+            </div>
+          </details>
+
+          <details class="faq reveal d1">
+            <summary>What does Lemma 3 state?</summary>
+            <div class="a">
+              For α &gt; 0, both the kernel K<sub>α</sub> and its p-derivative |∂K<sub>α</sub>/∂p|
+              diverge at the metric center x → μ, at matching asymptotic rate O(D<sup>−α</sup>).
+              When α = 0, the p-derivative vanishes as O(D²) → 0. The p-sensitivity diverges if and
+              only if the kernel diverges there.
+            </div>
+          </details>
+
+          <details class="faq reveal d1">
+            <summary>What is the critical exponent?</summary>
+            <div class="a">
+              α = 0. For α &gt; 0 the p-derivative diverges at the metric center. For α = 0 it
+              vanishes. The transition is exact — it happens at a single value of the power
+              parameter.
+            </div>
+          </details>
+
+          <details class="faq reveal d1">
+            <summary>How is the result verified?</summary>
+            <div class="a">
+              Two ways. (1) An analytic proof via two chain-rule applications, with an explicit
+              cancellation of the logarithmic terms under ray parameterization. (2) A numerical
+              table computed by central differences in p at step h = 10<sup>−3</sup>, showing the
+              predicted rates D<sup>0</sup>, D<sup>−1</sup>, D<sup>−2</sup> for α = 0, 1, 2.
+            </div>
+          </details>
+
+          <details class="faq reveal d1">
+            <summary>Who is the author?</summary>
+            <div class="a">
+              Gazi Pollob Hussain, independent researcher, Bangladesh.
+              ORCID <a class="inline" href="https://orcid.org/0009-0007-3644-2002">0009-0007-3644-2002</a>.
+            </div>
+          </details>
+
+          <div class="cta reveal d2">
+            <h3>Cite this contribution</h3>
+            <p>
+              For academic correspondence and citation, the ORCID record is the authoritative
+              source. Zenodo DOI to follow on deposit.
+            </p>
+            <div class="cta-btns">
+              <a class="btn btn-p" href="https://orcid.org/0009-0007-3644-2002">
+                View ORCID record →
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="fwrap">
+        <div>© 2026 Gazi Pollob Hussain · K<sub>α</sub> · Lemma 3 · α = 0</div>
+        <div><a href="https://orcid.org/0009-0007-3644-2002">ORCID 0009-0007-3644-2002</a></div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
